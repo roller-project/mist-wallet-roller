@@ -10,7 +10,7 @@
               "url":
                 "http://localhost/macos.tar.gz",
               "type": "tar",
-              "md5": "752ebecfd689e758d9add0ad5824e966",
+              "md5": "2ddbe0b5dcf53a0afc3bea6a222f1b98",
               "bin": "geth-darwin-amd64-1.9.7-dea1ce05/geth"
             },
             "bin": "geth",
