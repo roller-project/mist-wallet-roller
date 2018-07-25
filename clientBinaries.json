@@ -8,9 +8,9 @@
           "x64": {
             "download": {
               "url":
-                "http://localhost/macos.zip",
-              "type": "zip",
-              "md5": "9862865334376dd6559705e680ddea45",
+                "http://localhost/macos.tar.gz",
+              "type": "tar",
+              "md5": "752ebecfd689e758d9add0ad5824e966",
               "bin": "geth"
             },
             "bin": "geth",
