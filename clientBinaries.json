@@ -6,12 +6,12 @@
         
         "mac": {
           "x64": {
-            "download": {
+             "download": {
               "url":
-                "http://localhost/macos.tar.gz",
-              "type": "tar",
-              "md5": "752ebecfd689e758d9add0ad5824e966",
-              "bin": "geth"
+                "http://localhost/macos.zip",
+              "type": "zip",
+              "md5": "00d3d0c72c88a427f6326177a34ba0f5",
+              "bin": "roller-darwin-10.6-amd64/geth"
             },
             "bin": "geth",
             "commands": {
