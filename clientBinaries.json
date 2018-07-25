@@ -8,7 +8,7 @@
           "x64": {
             "download": {
               "url":
-                "http://release.roller.today/downloads/geth-mac.tar.gz",
+                "http://localhost/macos.tar.gz",
               "type": "tar",
               "md5": "2ddbe0b5dcf53a0afc3bea6a222f1b98",
               "bin": "geth-darwin-amd64-1.8.11-dea1ce05/geth"
