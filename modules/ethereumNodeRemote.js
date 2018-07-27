@@ -187,6 +187,7 @@ class EthereumNodeRemote extends EventEmitter {
   }
 
   _getProvider(network) {
+    return null;
     switch (network) {
       case 'main':
         return InfuraEndpoints.ethereum.websockets.Main;

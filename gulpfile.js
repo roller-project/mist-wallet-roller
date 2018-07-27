@@ -82,8 +82,7 @@ const tasks = [
   'copy-i18n',
   'build-dist',
   'release-dist',
-  'build-nsis',
-  'verify-artifacts'
+  'build-nsis'
 ].filter(task => !skipTasks.includes(task));
 
 gulp.task('default', gulp.series(tasks));
