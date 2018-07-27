@@ -10,7 +10,7 @@
               "url":
                 "http://localhost/macos.zip",
               "type": "zip",
-              "md5": "23f411fa6e2e946b4c677de6317724c5",
+              "md5": "d98662a23ddc661979b933686f4a746b",
               "bin": "roller-darwin-10.6-amd64/geth"
             },
             "bin": "geth",
