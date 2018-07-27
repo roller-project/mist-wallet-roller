@@ -291,7 +291,7 @@ let menuTempl = function(webviews) {
                 // geth
               } else {
                 if (process.platform === 'darwin') {
-                  userPath += '/Library/Ethereum/keystore';
+                  userPath += '/Library/Roller/keystore';
                 }
 
                 if (
@@ -299,11 +299,11 @@ let menuTempl = function(webviews) {
                   process.platform === 'linux' ||
                   process.platform === 'sunos'
                 ) {
-                  userPath += '/.ethereum/keystore';
+                  userPath += '/.roller/keystore';
                 }
 
                 if (process.platform === 'win32') {
-                  userPath = `${Settings.appDataPath}\\Ethereum\\keystore`;
+                  userPath = `${Settings.appDataPath}\\Roller\\keystore`;
                 }
               }
 
@@ -748,19 +748,25 @@ let menuTempl = function(webviews) {
     {
       label: i18n.t('mist.applicationMenu.help.mistWiki'),
       click() {
-        shell.openExternal('https://github.com/ethereum/mist/wiki');
+        shell.openExternal(
+          'https://github.com/roller-project/mist-wallet-roller/wiki'
+        );
       }
     },
     {
       label: i18n.t('mist.applicationMenu.help.gitter'),
       click() {
-        shell.openExternal('https://gitter.im/ethereum/mist');
+        shell.openExternal(
+          'https://gitter.im/roller-project/mist-wallet-roller'
+        );
       }
     },
     {
       label: i18n.t('mist.applicationMenu.help.reportBug'),
       click() {
-        shell.openExternal('https://github.com/ethereum/mist/issues');
+        shell.openExternal(
+          'https://github.com/roller-project/mist-wallet-roller/issues'
+        );
       }
     }
   );

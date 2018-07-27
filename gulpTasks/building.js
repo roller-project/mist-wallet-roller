@@ -12,7 +12,7 @@ const shell = require('shelljs');
 const version = require('../package.json').version;
 
 const type = options.type;
-const applicationName = options.wallet ? 'Ethereum Wallet' : 'Mist';
+const applicationName = options.wallet ? 'Roller Wallet' : 'Mist';
 
 gulp.task('clean-dist', cb => {
   return del([`./dist_${type}`], cb);
@@ -127,7 +127,7 @@ gulp.task('build-dist', cb => {
     productName: applicationName,
     description: applicationName,
     license: 'GPL-3.0',
-    homepage: 'https://github.com/ethereum/mist',
+    homepage: 'https://github.com/roller-project/mist-wallet-roller',
     build: {
       appId: `org.ethereum.${type}`,
       asar: true,

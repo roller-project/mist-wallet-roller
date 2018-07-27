@@ -25,10 +25,13 @@ const check = (exports.check = () => {
       break;
   }
 
-  return got('https://api.github.com/repos/ethereum/mist/releases/latest', {
-    timeout: 30000,
-    json: true
-  })
+  return got(
+    'https://api.github.com/repos/roller-project/mist-wallet-roller/releases/latest',
+    {
+      timeout: 30000,
+      json: true
+    }
+  )
     .then(res => {
       const release = res.body;
 
