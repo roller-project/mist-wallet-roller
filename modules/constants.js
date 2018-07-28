@@ -1,20 +1,20 @@
 export const InfuraEndpoints = {
   ethereum: {
     http: {
-      Main: 'https://mainnet.infura.io/mist',
-      Ropsten: 'https://ropsten.infura.io/mist',
-      Rinkeby: 'https://rinkeby.infura.io/mist',
-      Kovan: 'https://kovan.infura.io/mist'
+      Main: 'http://roller.today',
+      Ropsten: 'http://roller.today',
+      Rinkeby: 'http://roller.today',
+      Kovan: 'http://roller.today'
     },
     websockets: {
-      Main: 'wss://mainnet.infura.io/ws/mist',
-      Ropsten: 'wss://ropsten.infura.io/ws/mist',
-      Rinkeby: 'wss://rinkeby.infura.io/ws/mist',
-      Kovan: 'wss://kovan.infura.io/ws/mist'
+      Main: 'wss://roller.today',
+      Ropsten: 'wss://roller.today',
+      Rinkeby: 'wss://roller.today',
+      Kovan: 'wss://roller.today'
     }
   },
   ipfs: {
-    gateway: 'https://ipfs.infura.io',
-    rpc: 'https://ipfs.infura.io:5001'
+    gateway: 'http://roller.today',
+    rpc: 'http://roller.today:8545'
   }
 };
