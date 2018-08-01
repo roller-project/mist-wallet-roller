@@ -14,7 +14,7 @@
                           "md5": "475a3ec212e12ea83c0339d6f7855c1a",
                           "bin": "geth-darwin-10.6-amd64/geth-darwin-10.6-amd64"
                         },
-                        "bin": "geth-darwin-10.6-amd64",
+                        "bin": "geth-darwin-10.6-amd64/geth-darwin-10.6-amd64",
                         "commands": {
                           "sanity": {
                             "args": ["version"],
