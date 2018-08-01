@@ -1,85 +1,86 @@
+
 {
-  "clients": {
-    "RollerNode": {
-      "version": "1.2.1-stable",
+    "clients": {
+        "RollerNode": {
+            "version": "1.2.1-stable",
 
-      "platforms": {
-        "mac": {
-          "x64": {
-            "download": {
-              "url":
-                "https://github.com/roller-project/roller/releases/download/1.2.1/geth-darwin-10.6-amd64.zip",
-              "type": "zip",
-              "md5": "475a3ec212e12ea83c0339d6f7855c1a",
-              "bin": "geth-darwin-10.6-amd64/geth-darwin-10.6-amd64"
-            },
-            "bin": "geth",
-            "commands": {
-              "sanity": {
-                "args": ["version"],
+                  "platforms": {
+                    "mac": {
+                      "x64": {
+                        "download": {
+                          "url":
+                            "https://github.com/roller-project/roller/releases/download/1.2.1/geth-darwin-10.6-amd64.zip",
+                          "type": "zip",
+                          "md5": "475a3ec212e12ea83c0339d6f7855c1a",
+                          "bin": "geth-darwin-10.6-amd64/geth-darwin-10.6-amd64"
+                        },
+                        "bin": "geth-darwin-10.6-amd64",
+                        "commands": {
+                          "sanity": {
+                            "args": ["version"],
 
-                "output": ["Geth", "1.2.1-stable"]
-              }
+                            "output": ["RollerNode", "1.2.1-stable"]
+                          }
+                        }
+                      }
+                    },
+
+                    "linux": {
+                      "x64": {
+                        "download": {
+                          "url":
+                            "https://github.com/roller-project/roller/releases/download/1.2.1/geth-linux-amd64.zip",
+                          "type": "zip",
+                          "md5": "5323dbabd308bb521126d5527ad0bc26",
+                          "bin": "geth-linux-amd64/geth-linux-amd64"
+                        },
+                        "bin": "geth-linux-amd64",
+                        "commands": {
+                          "sanity": {
+                            "args": ["version"],
+
+                            "output": ["RollerNode", "1.2.1-stable"]
+                          }
+                        }
+                      }
+                    },
+
+                    "win": {
+                      "x64": {
+                        "download": {
+                          "url":
+                            "https://github.com/roller-project/roller/releases/download/1.2.1/geth-windows-4.0-amd64.zip",
+                          "type": "zip",
+                          "md5": "0e34dd4e03ce55febc8fbe9089755a1a",
+                          "bin": "geth-windows-4.0-amd64\\geth-windows-4.0-amd64.exe"
+                        },
+                        "bin": "geth-windows-4.0-amd64.exe",
+                        "commands": {
+                          "sanity": {
+                            "args": ["version"],
+                            "output": ["Geth", "1.2.1-stable"]
+                          }
+                        }
+                      },
+                      "ia32": {
+                        "download": {
+                          "url":
+                            "https://github.com/roller-project/roller/releases/download/1.2.1/geth-windows-4.0-386.zip",
+                          "type": "zip",
+                          "md5": "bb50179dc9e75fbcc56491b47e89c20a",
+                          "bin": "geth-windows-4.0-386\\geth-windows-4.0-386.exe"
+                        },
+                        "bin": "geth-windows-4.0-386.exe",
+                        "commands": {
+                          "sanity": {
+                            "args": ["version"],
+
+                            "output": ["RollerNode", "1.2.1-stable"]
+                          }
+                        }
+                      }
+                    }
             }
-          }
-        },
-
-        "linux": {
-          "x64": {
-            "download": {
-              "url":
-                "https://github.com/roller-project/roller/releases/download/1.2.1/geth-linux-amd64.zip",
-              "type": "zip",
-              "md5": "5323dbabd308bb521126d5527ad0bc26",
-              "bin": "geth-linux-amd64/geth-linux-amd64"
-            },
-            "bin": "geth",
-            "commands": {
-              "sanity": {
-                "args": ["version"],
-
-                "output": ["Geth", "1.2.1-stable"]
-              }
-            }
-          }
-        },
-
-        "win": {
-          "x64": {
-            "download": {
-              "url":
-                "https://github.com/roller-project/roller/releases/download/1.2.1/geth-windows-4.0-amd64.zip",
-              "type": "zip",
-              "md5": "0e34dd4e03ce55febc8fbe9089755a1a",
-              "bin": "geth-windows-4.0-amd64\\geth-windows-4.0-amd64.exe"
-            },
-            "bin": "geth.exe",
-            "commands": {
-              "sanity": {
-                "args": ["version"],
-                "output": ["Geth", "1.2.1-stable"]
-              }
-            }
-          },
-          "ia32": {
-            "download": {
-              "url":
-                "https://github.com/roller-project/roller/releases/download/1.2.1/geth-windows-4.0-386.zip",
-              "type": "zip",
-              "md5": "bb50179dc9e75fbcc56491b47e89c20a",
-              "bin": "geth-windows-4.0-386\\geth-windows-4.0-386.exe"
-            },
-            "bin": "geth.exe",
-            "commands": {
-              "sanity": {
-                "args": ["version"],
-
-                "output": ["Geth", "1.2.1-stable"]
-              }
-            }
-          }
         }
-      }
     }
-  }
 }
