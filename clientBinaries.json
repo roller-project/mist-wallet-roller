@@ -1,7 +1,7 @@
 {
   "clients": {
     "Geth": {
-      "version": "1.9.7",
+      "version": "0.1.1-roller",
       "platforms": {
         "mac": {
           "x64": {
@@ -15,7 +15,7 @@
             "commands": {
               "sanity": {
                 "args": ["version"],
-                "output": ["Geth", "1.9.7"]
+                "output": ["Geth", "0.1.1-roller"]
               }
             }
           }
@@ -33,7 +33,7 @@
             "commands": {
               "sanity": {
                 "args": ["version"],
-                "output": ["Geth", "1.9.7"]
+                "output": ["Geth", "0.1.1-roller"]
               }
             }
           }
@@ -52,7 +52,7 @@
             "commands": {
               "sanity": {
                 "args": ["version"],
-                "output": ["Geth", "1.9.7"]
+                "output": ["Geth", "0.1.1-roller"]
               }
             }
           }

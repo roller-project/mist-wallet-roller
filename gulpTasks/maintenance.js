@@ -18,12 +18,9 @@ gulp.task('update-nodes', cb => {
   const geth = newJson.clients.Geth;
 
   // Query latest geth version
-  got(
-    'https://api.github.com/repos/roller-project/mist-wallet-roller/releases/latest',
-    {
-      json: true
-    }
-  )
+  got('https://api.github.com/repos/roller-project/roller/releases/latest', {
+    json: true
+  })
     .then(response => {
       return response.body.tag_name;
     })
@@ -37,7 +34,7 @@ gulp.task('update-nodes', cb => {
 
         // Query commit hash (first 8 characters)
         got(
-          `https://api.github.com/repos/roller-project/mist-wallet-roller/commits/${tagName}`,
+          `https://api.github.com/repos/roller-project/roller/commits/${tagName}`,
           { json: true }
         )
           .then(response => {
